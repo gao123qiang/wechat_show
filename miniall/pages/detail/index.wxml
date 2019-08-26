@@ -1,0 +1,7 @@
+<!--pages/detail/index.wxml-->
+<import src="../../template/swiper_template.wxml"/>
+
+<view class="container">
+  <template is="detail_page"
+  data="{{...detail_page_text}}"></template>
+</view>

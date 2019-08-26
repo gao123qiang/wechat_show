@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<import src="../../template/swiper_template.wxml"/>
+<view class="container">
+  <view class="section section_gap swiper_box">
+    <template is="index_index_scroll_tmp1"
+    data="{{...index_index_scroll_tmp1}}"/>
+  </view>
+
+  <view class="text">
+    <view class="line"></view>
+    <text>经营范围</text>
+  </view>
+
+  <scroll-view scroll-x>
+    <view class="navs">
+      <template is="index_index_navs_tmp1"
+        data="{{...index_index_navs_tmp1}}"/>
+    </view>
+  </scroll-view>
+
+  <view class="text text2">
+    <view class="line"></view>
+    <text>最新活动</text>
+  </view>
+
+  <view class="activity">
+    <image mode="aspectFill" src="/image/huodong01.jpg"></image>
+  </view>
+
+  <view class="activity">
+    <image mode="aspectFill" src="/image/huodong02.jpg"></image>
+  </view>
+
+</view>

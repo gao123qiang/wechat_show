@@ -1,0 +1,10 @@
+<!--pages/list/index.wxml-->
+<view class="container" wx:for="{{product_list_show}}" wx:key="item.id">
+    <view class="product_list">   
+      <image src="{{item.image}}" bindtap="toCase" data-index="{{index}}"></image>
+      <view class="product_text">
+        <text>{{item.product_name}}</text>
+        <text>{{item.price}}</text>
+      </view>      
+    </view>
+</view>

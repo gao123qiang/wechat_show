@@ -1,0 +1,33 @@
+<!--pages/our/index.wxml-->
+<view class="container">
+  <view class="shop_image">
+    <image src="{{src}}"></image>
+  </view>
+  <view class="about_us">
+    <text>关于我们</text>
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;张北小二放羊是山西小二放羊乳业有限公司旗下门店，以多维配方型、初乳配方型、高钙配方型、全营养型等多功能型配方羊奶，同时拥有高钙奶粉贝、羊奶饼干、羊奶曲奇、奶糖、奶豆等羊奶休闲型食品系列，对于婴儿、幼儿、学生、孕妇、女士、中老年、等适合不同年龄段的自有品牌羊奶粉系列等产品。
+    </text>
+  </view>
+  <view class="addr_phone">
+    <text decode="{{true}}">公司地址&nbsp;&nbsp;&nbsp;&nbsp;</text>
+    <text>张北xxxxxxxxxx</text>
+  </view>
+  <view class="addr_phone">
+    <text decode="{{true}}">公司电话&nbsp;&nbsp;&nbsp;&nbsp;</text>
+    <text>xxxxxxxxxxx</text>
+  </view>
+  <view class="contaxt_text"><text>联系我们</text></view>
+  <view class="contaxt_info">
+    <view class="call" bindtap="calling">
+      <image src="{{call_image}}"></image>
+    </view>
+    <view class="addr">
+      <button bindtap="addring">
+        <image src="{{ditu_image}}"></image>
+        <text>本店导航</text>
+      </button>
+    </view>
+  </view>
+  <map id="myMap" show-location></map>
+</view>
+ 

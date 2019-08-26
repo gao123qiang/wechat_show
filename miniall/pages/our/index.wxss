@@ -1,0 +1,126 @@
+/* pages/our/index.wxss */
+.container {
+  padding: 0;
+  background-color: #eeeeee;
+  padding-bottom: 30rpx;
+}
+
+.shop_image {
+  width: 100%;
+  height: 420rpx;
+  padding: 5rpx 0;
+}
+
+.shop_image image {
+  display: block;
+  width: 100%;
+  height: 420rpx;
+}
+
+.about_us {
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 20rpx;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.about_us text {
+  font-size: 16px;
+}
+
+.about_us text:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom:10rpx;
+}
+
+.addr_phone {
+  width: 730rpx;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 10rpx;
+}
+
+.addr_phone text:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+.addr_phone text:last-child {
+  font-size: 16px;
+  color: #8B7D6B;
+}
+
+.contaxt_text {
+  width: 100%;
+  display: inline-block;
+  padding-left: 20rpx;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.contaxt_text text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contaxt_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 170rpx;
+  padding: 10rpx;
+}
+
+.call{
+  width: 350rpx;
+  height: 150rpx;
+  margin-right: 5rpx;
+}
+
+.call image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.addr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 350rpx;
+  height: 150rpx;
+  margin-left: 5rpx;
+  position: relative;
+}
+
+.addr image{
+  position: absolute;
+  bottom: 40rpx;
+  left:40rpx;
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.addr button{
+  width: 100%;
+  height: 100%;
+  background-color: #8e9218;
+}
+
+.addr text {
+  position: absolute;
+  right: 40rpx;
+  bottom: 30rpx; 
+  color: #ffffff;
+  font-size: 18px;
+}
+
+map{
+  width: 100%;
+  height: 400rpx;
+}
+
+

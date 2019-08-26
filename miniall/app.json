@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/our/index",
+    "pages/logs/logs",
+    "pages/detail/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "将定位你的位置信息"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "小二放羊",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fbf9fe",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#3c3c3c",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "产品展示",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/our/index",
+        "text": "联系我们",
+        "iconPath": "image/phone_go.png",
+        "selectedIconPath": "image/phone_before.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug": true
+}

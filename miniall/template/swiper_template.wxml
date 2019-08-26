@@ -1,0 +1,29 @@
+<!--index_index_scroll-->
+<template name="index_index_scroll_tmp1">
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="item.id">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</template>
+
+<!--index_index_navs-->
+<template name="index_index_navs_tmp1">
+  <block wx:for="{{navs}}" wx:key="item.id">
+    <view class="l-c-c">
+      <image src="{{item.image}}" class="navs-image"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </block>
+</template>
+
+<template name="detail_page">
+  <image src="{{detail_image}}"></image>
+  <text class="head_text">产品介绍</text>
+  <text class="detail_text" decode="{{true}}">{{detail_text}}</text>
+</template>

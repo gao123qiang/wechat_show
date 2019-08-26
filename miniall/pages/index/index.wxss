@@ -1,0 +1,106 @@
+/**index.wxss**/
+.container {
+  background-color: #F2f2f2;
+  padding: 0 0;
+}
+
+view .section {
+  display: block;
+  width: 100%;
+}
+
+.swiper_box {
+  width: 100%;
+  height: 330rpx;
+}
+
+swiper .swiper {
+  height: 100%;
+}
+
+swiper-item {
+  display: block;
+  height: 100%;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+view.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 20rpx 20rpx 20rpx 24rpx;
+}
+
+.line {
+  width: 10rpx;
+  height: 40rpx;
+  display: inline-block;
+  margin-left: 10rpx;
+  background-color: #09bb07;
+}
+
+view.text text{
+  margin-left: 20rpx;
+  line-height: 40rpx;
+  font-weight: 550;
+}
+
+.navs {
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  color: #000000;
+  border-bottom: 1px solid #F2f2f2;
+}
+
+.navs scroll-view {
+  width: 100%;
+}
+
+.l-c-c {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #F2f2f2;
+}
+
+.navs image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.navs text {
+  font-size: 13px;
+}
+
+.text2 {
+  margin-top: 30rpx;
+}
+
+.activity {
+  width: 100%;
+  height: 400rpx;
+}
+
+.activity image {
+  width: 100%;
+}
+
+
+
+
+
+
